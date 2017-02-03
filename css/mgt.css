@@ -1,0 +1,595 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+}
+.ir-arriba {
+    background: url(arrow-up.png) no-repeat;
+    display:none;
+    padding:10px;
+    cursor:pointer;
+    position: fixed;
+    bottom:30px;
+    right:0px;
+    height: 2%;
+    width: 2%;
+}
+.header2{ 
+ width: 100%;
+ height: 10%;
+ display: block;
+}
+header{
+    background-color: rgb(36,34,24);
+    height: 10%;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+#logo{
+    width: 100%;
+    height: 100%;
+}
+#superior{
+    margin-top: 1%;
+    display: block;
+    overflow: hidden;
+}
+#superior .activo{
+    border-bottom: 2px rgba(244, 223, 38, 0.81) solid;
+    color: #fff;
+    text-decoration: none;
+}
+#superior ul{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+#superior ul li{
+    width: 40%;
+    float: left;
+    display: :inline-block;
+    list-style-type: none;
+    text-align: center;
+}
+#superior ul li span{
+    margin-left: 20%;
+    margin-bottom: 5px;
+}
+#superior ul li a{
+    text-align: center;
+    font-size: 100%;
+    width: 40%;
+    height: 70%;
+    color: rgb(255,255,255);
+    display: block;
+    font-family: cursive;
+    font-style: oblique;
+}
+#superior > ul> li>.otros:hover {
+    text-decoration: none;
+    color : rgba(170, 156, 156, 0.97);
+
+}
+#superior ul li:hover .susc{
+    display: block;
+}
+#superior ul li .susc{
+    display: none;
+    height: 20%;
+    width: 20%;
+    float: left;
+    position: fixed;
+    background-color: rgb(39, 41, 34);
+    border: 1px solid #fff;
+}
+.menu_bar{
+    display: none;
+}
+
+@media screen and (max-width:800px ) {
+   /*
+    #logo{
+        display: none;
+    }
+    header #superior {
+        width:80%;
+        height:100%;
+        left:-100%;
+        margin:0;
+        position: fixed;
+        overflow: auto;
+
+    }
+    #superior ul li{
+        height: 20%;
+    }
+    #superior{
+        background: rgb(36,34,24);
+    }
+    #superior ul li span{
+        margin-right: 20px;
+    }
+    #superior ul li {
+        display:block;
+        float:none;
+        border-bottom:1px solid rgba(255,255,255, .3);
+    }
+ 
+    .menu_bar {
+        display:block;
+        width:100%;
+        background:#ccc;
+    }
+ 
+    .menu_bar .bt-menu {
+        display:block;
+        padding:20px;
+        background:rgb(36,34,24);
+        color:#fff;
+        text-decoration:none;
+        font-weight: bold;
+        font-size:25px;
+        -webkit-box-sizing:border-box;
+        -moz-box-sizing:border-box;
+        box-sizing:border-box;
+    }
+ 
+    div .menu_bar span {
+        float:right;
+        font-size:40px;
+    }
+    */
+}
+
+
+.ip_suscripcion{
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 80%;
+}
+.ip{
+    width: 50%;
+}
+#barra{
+    height: 55px;
+    float: left;
+}
+.cuerpo{
+    background: url(sprite-fondo.png);
+    height: 50%;
+    float: left;
+}
+
+.sm{
+    list-style: none;
+    list-style-type: none;
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+}
+.sm li{
+    font-size: 100%;
+    font-family: cursive;
+    font-style: oblique;
+    height: 20%;
+    border: 1px solid #fff;
+    width: 100%;
+    background-color: rgb(36,34,24);
+    color : #fff;
+}
+#texto-li{
+    margin-left: 5%;
+}
+.sm .activoSM{
+    background-color: white;
+    border-right: 15px solid rgba(244, 223, 38, 0.81);
+    border-radius: 10px;
+    color: black;
+}
+
+.muestras{
+    float: left;
+    height: 45%;
+}
+
+.barra2{
+    height: 5%;
+    background-color: rgba(219, 211, 211, 0.97);
+    color: black;
+    float: left;
+}
+.nb_departamento {
+    font-size: 100%;
+}
+
+.identi  a:hover{
+text-decoration: none;}
+
+#peque{
+    height: 40px;
+    width: 50px;
+}
+
+#gig{
+    height: 100%;
+    width:100%;
+    background: url(1.jpg) no-repeat;
+}
+
+#producto ul li{
+    margin-top: 4px;
+    display: block;
+    float: left;
+    border : 1px rgba(219, 211, 211, 0.97) solid;
+}
+#producto ul li ul{
+ display: none;
+}
+#producto ul li:hover{ 
+    position: relative;
+    display: block;
+    border : 1px rgb(36,34,24) solid;
+}
+
+.departamen{
+background-color: #dbcfcf;
+border-radius: 3px 3px 3px 3px;
+height: 100%;
+}
+.departamen p{
+margin: 33px;
+}
+
+.fotolocal{
+    background: url(sprite-fondo.png);
+    height: 46%;
+}
+
+
+ /*--------------------footer-------------------*/
+footer{
+    background-color: rgb(36,34,24);
+    height: 114px;
+    float: left;
+    width: 100%;
+}
+/*--------------------------------------------------*/
+.sociales ul{
+    margin-top: 10px;
+    float: left;
+    height: 75%;
+}
+.sociales > .facebook{
+    background: url(sprite-redes.png) 0 51.9%;  
+    height: 75%;
+    width: 19%;
+}
+.sociales > .facebook:hover{
+    background: url(sprite-redes.png) 0px 84px;  
+     height: 75%;
+    width: 19%;
+}
+.sociales > .google{
+    background: url(sprite-redes.png) 171px 168px;
+    height: 75%;
+    width: 19%;
+}
+.sociales > .google:hover{
+    background: url(sprite-redes.png) 171px 84px;
+     height: 75%;
+    width: 19%;
+}
+.sociales > .twitter:hover{  
+    background: url(sprite-redes.png) 84px 84px;
+    height: 75%;
+    width: 19%;
+}
+.sociales > .twitter{
+    background: url(sprite-redes.png) 84px 168px;
+     height: 75%;
+    width: 19%;
+}
+
+
+
+.letras_ft p a{
+        font-weight: bold;  
+}
+.fdred {
+    background-color: red;
+    height: 100%;
+}
+
+#img_box {
+    height: 180px;
+    width: 230px;
+    background-color: #fff;
+}
+
+#descripcion {
+    height: 10%;
+    width: 100%;
+    background-color: blue;
+    text-overflow:ellipsis;
+    white-space:nowrap; 
+    overflow:hidden; 
+    font-size: 150%;
+}
+
+#black {
+    margin-top: 20px;
+}
+
+.departamentos {
+    width: 20%;
+}
+
+.producto_box {
+    width: 100%;
+    height: 100%;
+}
+
+.descripcion_producto {
+    height: 100%;
+}
+
+#descripcion_producto_detallada {
+    height: 60%;
+}
+
+
+
+.preguntar {
+    height: 70%;
+}
+
+#ip_pregunta {
+    height: 30%;
+    width: 90%;
+    margin-left: 3%;
+}
+
+.ag_lista {
+    margin: 3% 0 0 7% ;
+}
+
+.bt_lista {
+    width: 70%;
+}
+
+#nombre_producto {
+    margin-top: 2%;
+    font-size: 120%;
+    font-style: oblique;
+    color : rgb(36,26,24);
+    font-weight: bold;
+}
+
+#vis_departamento {
+    height: 10%;
+    border: 1px #dbcfcf solid;
+    background-color: #efe3e3;
+}
+
+.ft_barra {
+    margin-top: 2%;
+    height: 100%;
+}
+
+.letras_ft {
+    text-align: center;
+    font-family: cursive;
+    font-style: oblique;
+}
+.letras_ft div a {
+    color : #fff;
+}
+.ip_suscripcio {
+    width: 80%;
+    height: 40%;
+}
+.suscripcio {
+    margin-top: 2%;
+}
+.bt_suscripcio {
+    margin-left: 30%;
+    background-color: #fff;
+}
+.bt_suscripcio:hover{
+    background-color:  rgba(242, 226, 226, 0.97);
+}
+.referencia {
+    margin-top: 2%;
+    color: #fff;
+    text-align: center;
+    font-family: monospace;
+}
+
+.der {
+    float: right;
+}
+#buscador form{
+    margin-left: 10%;
+}
+
+#buscador{
+    display: none;
+    height: 50%;
+    width: 68%;
+    margin-left: 17%;
+    background-color:rgba(36, 34, 24, 0.31);
+    margin-top: 5%;
+    position: fired;
+    z-index: 100;
+}
+.btn-margintop {
+    margin-top: -11px;
+}
+
+.btnS {
+    width: 50%;
+    margin-left: 10%;
+}
+.contactos{
+    text-decoration: none;
+}
+.contactos ul {
+    list-style:  none;
+    list-style-type: none;
+}
+.contactos ul .normal{
+    font-family: cursive;
+    font-style: oblique;
+}
+.contactos ul .resp{
+    margin-left: 3%;
+}
+
+.resuelve {
+    width: 100%;
+    height: 100%;
+}
+
+
+img{
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto
+}
+
+
+
+
+
+
+
+.bienvenido {
+    height: 70%;
+    border: 1px solid white;
+    color : rgba(244, 223, 38, 0.81);
+    background: url("bg-top-1.jpg") center top no-repeat;
+}
+
+.sec-bv{
+    text-align: center;
+    margin-top: 7%; 
+    background-color: rgba(36, 34, 24, 0.56);
+    
+}
+
+.bt-bv {
+    font-size: 150%;
+    border: 2px solid rgb(36,34,24);
+    width: 50%;
+    background-color: #fff;
+}
+
+
+
+
+#mt {
+    font-family: cursive;
+    font-style: oblique;
+}
+
+
+
+#big {
+    font-size: 200%;
+    height: auto;
+}
+
+#sug {
+    color: rgba(66, 67, 63, 0.98);
+    text-align: center;
+    font-family: cursive;
+    font-style: oblique;
+}
+
+#red {
+    color : red;
+}
+
+#texto-li {
+    
+    text-overflow:ellipsis;
+    white-space:nowrap; 
+}
+
+.mapeo {
+    background: url(sprite-fondo.png);
+}
+.segm{
+    height: 10%;
+}
+.segmentos{
+    height: 100%;
+    float: left;
+    font-size: 150%;
+    text-align: center;
+    font-style: italic;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+.segmentos img{
+    height: 85%;
+    border: -1px solid #d9bbbb;
+}
+
+.segmentos li{
+    list-style: none;
+    list-style-type: none;
+    width: 20%;
+    height: 100%;
+    color : rgb(36,34,24);
+    float: left;
+}
+.segmentos li p{
+    font-style: normal;
+    height: 80%;
+    border: 1px solid #d9bbbb;
+    font-size: 80%;
+}
+
+
+.fan_page {
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+.ladrillo {
+    background: url(brickwall.png);
+}
+
+
+
+
+#part1 {
+    height: 90%;
+    width: 100%;
+    background-color: red;
+}
+
+#part2 {
+    background-color: blue;
+    
+    height: 90%;
+    width: 100%;
+}
+
+#fin {
+    background-color:yellow;
+    
+    height: 90%;
+    width: 100%;
+    
+}
+
+.up {
+    background-image:url(arrow-up.png) no-repeat;
+}
